@@ -1,0 +1,113 @@
+body{
+  overflow-x: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Train+One&display=swap');
+
+.s-font {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.first{
+  background-image: url(img/1.png);
+  background-size: cover;
+}
+.bg-c1{
+background-color: white;
+width: 55%;
+height: 450px;
+position: absolute;
+border-radius: 50% 50% 50px 20px;
+}
+.bg-c2{
+  border: 3px solid rgba(255, 255, 255, 0.832);
+width: 58%;
+height: 450px;
+position: absolute;
+border-radius: 50% 50% 50px 20px;
+  margin-top: -60px;
+}
+.bg-c3{
+border: 3px solid rgba(255, 255, 255, 0.564);
+width: 63%;
+height: 450px;
+position: absolute;
+border-radius: 50% 50% 50px 20px;margin-top: -120px;
+
+}
+.card-l{
+  /* animation-name: card-l;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; */
+  border: 3px solid transparent;
+  background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(50deg, transparent 30%, #0a4ca8,transparent 90%, rgba(255, 0, 0, 0)) border-box;
+
+}
+
+.detail-div-fs {
+  .detail-div-fs {
+    border: 3px solid transparent;
+    background: linear-gradient(#fff, #fff) padding-box,
+      linear-gradient(25deg, transparent 25%, #0a4ca8,transparent 80%, rgba(255, 0, 0, 0)) border-box;
+  }
+}
+
+
+
+@media only screen and (max-width:600px) {
+
+  .last-span {
+    width: 250px !important;
+  }
+
+  .sec-img {
+    height: 400px !important;
+    margin-top: 140px !important;
+  }
+
+  .four-img {
+    height: 400px !important;
+  }
+  .footer-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: black;
+  }
+
+  .icon-div {
+    color: black;
+  }
+
+  .card-img {
+    height: 50px !important;
+    object-fit: contain !important;
+  }
+
+  .card-h1 {
+    font-size: 15px;
+  }
+
+  .card-p {
+    font-size: 15px;
+  }
+
+  .card{
+    border: 3px solid red !important;
+  }
+
+  .first {
+    height: 140vh !important;
+  }
+
+  .a {
+    color: black !important;
+  }
+
+}
