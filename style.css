@@ -66,8 +66,10 @@ border-radius: 50% 50% 50px 20px;margin-top: -120px;
 
   .sec-img {
     height: 400px !important;
-    margin-top: 140px !important;
+    /* margin-top: 140px !important; */
   }
+
+
 
   .four-img {
     height: 400px !important;
@@ -83,6 +85,8 @@ border-radius: 50% 50% 50px 20px;margin-top: -120px;
 
   .icon-div {
     color: black;
+    width: 70%;
+    margin-left: 50px;
   }
 
   .card-img {
